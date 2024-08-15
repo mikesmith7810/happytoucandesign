@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Our vision is to create a balance between beautiful design and daily function . . .blah de blah... 
