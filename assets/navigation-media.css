@@ -1,0 +1,74 @@
+@media screen and (max-width: 700px) {
+    .site-title {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 54px;
+        /*letter-spacing: -1px;*/
+        margin-bottom: 0;
+        float: left;
+        text-decoration: none;
+        color: #111111;
+    }
+
+    .home-description {
+        text-align: center;
+        font-size: 15px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .site-nav {
+        position: absolute;
+        top: 9px;
+        right: 15px;
+        background-color: #fdfdfd;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        text-align: right;
+    }
+
+    .site-nav label[for=nav-trigger] {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 36px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .site-nav .menu-icon > svg {
+        fill: #424242;
+    }
+
+    .site-nav input ~ .trigger {
+        clear: both;
+        display: none;
+    }
+
+    .site-nav input:checked ~ .trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px;
+    }
+
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 0;
+    }
+
+
+}

@@ -1,34 +1,22 @@
 ---
 layout: default
 ---
-<article class="post">
-<style>
-.testcontainer {
-                width: 150px;
-                height: 150px;
-                position: relative;
-                margin: 30px;
-            }
 
-            .box {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0;
-                left: 0;
-                opacity: 0.7;
-                background: #0057e3;
-            }
 
-            .overlay {
-                z-index: 9;
-                margin: 30px;
-                background: #009938;
-            }
-</style>
-<div class="testcontainer">
-  <div class="box">u</div>
-  <div class="box overlay">o</div>
-</div>
 
-</article>
+<section class="home-posts box">
+    {%- if site.posts.size > 0 -%}
+
+    {%- for post in site.posts -%}
+    <section class="home-featured-post">
+        {%- if post.feature -%}
+        <img class="feature" src="/assets/{{ post.main_image }}" alt="{{ post.title }}"/>
+        {%- endif -%}
+    </section>
+    {%- endfor -%}
+
+
+    {%- endif -%}
+</section>
+
+
