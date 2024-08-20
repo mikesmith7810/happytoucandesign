@@ -1,13 +1,11 @@
-@media screen and (max-width: 700px) {
-    .site-title {
-        font-size: 25px;
-        font-weight: 600;
-        line-height: 54px;
-        /*letter-spacing: -1px;*/
-        margin-bottom: 0;
+@media screen and (max-width: 1040px) {
+
+
+    .site-title a {
+        color: ghostwhite;
         float: left;
-        text-decoration: none;
-        color: #111111;
+        font-size: 35px;
+        margin-left: 10px;
     }
 
     .home-description {
@@ -21,8 +19,8 @@
         position: absolute;
         top: 9px;
         right: 15px;
-        background-color: #fdfdfd;
-        border: 1px solid #e8e8e8;
+        background-color: #d01a1a;
+        border: 1px solid #ef0d0d;
         border-radius: 5px;
         text-align: right;
     }
