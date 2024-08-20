@@ -10,6 +10,16 @@
   margin: 0;
 }
 
+.top-social {
+  background: rgba(219, 231, 217, 0.7);
+  height: 20px;
+  width: 100%;
+  float: right;
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
 .site-header {
   min-height: 55.95px;
   position: relative;
@@ -75,6 +85,16 @@ a:hover {
 /* selected link */
 a:active {
   text-decoration: none;
+}
+
+.svg-icon {
+
+    display: inline-block;
+    fill: ghostwhite;
+    padding-right: 0px;
+    vertical-align: center;
+    text-align: center;
+    border-style: solid;
 }
 
 

@@ -35,3 +35,7 @@
 .site-nav .page-link:not(:last-child) {
   margin-right: 5px;
 }
+
+.social {
+        display: none;
+    }
