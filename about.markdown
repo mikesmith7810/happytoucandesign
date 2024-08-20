@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WHAT WE DO
+title: MEET THE TEAM
 permalink: /about/
 ---
 

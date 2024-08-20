@@ -1,10 +1,10 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 710px) {
 
 
     .site-title a {
         color: ghostwhite;
         float: left;
-        font-size: 23px;
+        font-size: 30px;
         margin-left: 10px;
     }
 
@@ -19,10 +19,12 @@
         position: absolute;
         top: 9px;
         right: 15px;
-        background-color: #d01a1a;
-        border: 1px solid #ef0d0d;
+        width: 110px;
+        background-color: rgba(22, 47, 18, 0.3);
+        border: 0;
         border-radius: 5px;
         text-align: right;
+        border-style: solid;
     }
 
     .site-nav label[for=nav-trigger] {
@@ -60,13 +62,17 @@
 
     .site-nav .page-link {
         display: block;
-        padding: 5px 10px;
-        margin-left: 20px;
+        width: 100px;
+        padding: 5px 0px;
+        margin-left: 0px;
     }
 
     .site-nav .page-link:not(:last-child) {
         margin-right: 0;
     }
 
+    .nav-seperator {
+        display: none;
+    }
 
 }
