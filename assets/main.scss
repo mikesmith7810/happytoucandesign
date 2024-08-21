@@ -85,6 +85,17 @@
   height: 100%;
 }
 
+.feature-description {
+  position: relative;
+  float: left;
+  bottom : 200px;
+  left: 30px;
+  width: 50%;
+  text-align: left;
+  color: ghostwhite;
+  font-size: 20px;
+}
+
 a, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Urbanist", system-ui;
   font-optical-sizing: auto;

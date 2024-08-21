@@ -11,9 +11,41 @@ layout: default
     <section class="home-featured-post">
         {%- if post.feature -%}
         <img class="feature" src="/assets/{{ post.main_image }}" alt="{{ post.title }}"/>
+        <section class="feature-description">
+            <p>{{ post.description }}</p>
+        </section>
         {%- endif -%}
+
     </section>
     {%- endfor -%}
+    {%- for post in site.posts -%}
+    <section class="home-post">
+       {% assign rows = site.posts.size | divided_by: 2.0 | ceil %}
+        {% for i in (1..rows) %}
+  {% assign offset = forloop.index0 | times: 2 %}
+  <div>
+    {% for post in site.posts limit:2 offset:offset %}
+      <img class="feature" src="/assets/{{ post.main_image }}" alt="{{ post.title }}"/>
+        <section class="feature-description">
+            <a href="{{ post.url }}"><p>{{ post.description }}</p></a>
+        </section>
+      {{ post.title }}
+    {% endfor %}
+  </div>
+{% endfor %}
+
+
+<!--        {%- unless post.feature -%}-->
+<!--        <img class="feature" src="/assets/{{ post.main_image }}" alt="{{ post.title }}"/>-->
+<!--        <section class="feature-description">-->
+<!--            <p>{{ post.description }}</p>-->
+<!--        </section>-->
+<!--        {%- endunless -%}-->
+
+    </section>
+    {%- endfor -%}
+
+
 
 
     {%- endif -%}

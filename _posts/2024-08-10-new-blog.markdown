@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "New Blog!"
+title:  "Main Feature"
 date:   2024-08-10 11:44:20 +0100
-categories: jekyll update
+categories: TBC
 feature: true
-main_image: guitarwall.jpeg
+main_image: posts/IMG_1031.jpeg
+description: A description of interior and colour evaluation in Nottingon, Weymouth...
 ---
 This is invalidatedadsadsdfds
 
