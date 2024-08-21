@@ -96,4 +96,15 @@
         color: ghostwhite;
     }
 
+    .feature-description {
+      position: relative;
+      float: left;
+      bottom : 100px;
+      left: 30px;
+      width: 50%;
+      text-align: left;
+      color: ghostwhite;
+      font-size: 14px;
+    }
+
 }
