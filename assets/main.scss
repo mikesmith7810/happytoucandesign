@@ -19,13 +19,13 @@
   font-family: "Urbanist", system-ui;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   color: ghostwhite;
 }
 
 .top-bar {
-  background: rgba(219, 231, 217, 0.5);
+  background: rgba(24, 51, 18, 0.8);
   height: 30px;
   width: 100%;
 }
@@ -51,7 +51,7 @@
 
 .main-bar {
   background: rgba(22, 47, 18, 0.3);
-  height: 55px;
+  height: 65px;
   width: 100%;
 }
 
@@ -123,9 +123,6 @@ a:active {
     border-style: solid;
 }
 
-@media screen and (max-width: 600px) {
-
-}
 
 
 
