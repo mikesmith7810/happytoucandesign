@@ -13,7 +13,6 @@
 .site-header {
   min-height: 55.95px;
   position: relative;
-  background: rgba(22, 47, 18, 0.3);
   z-index: 1;
   border: 0;
   padding-bottom: 10px;
@@ -26,7 +25,7 @@
 }
 
 .top-bar {
-  background: rgba(219, 231, 217, 0.7);
+  background: rgba(219, 231, 217, 0.5);
   height: 30px;
   width: 100%;
 }
@@ -48,6 +47,12 @@
   text-align: right;
   width: 50%;
 
+}
+
+.main-bar {
+  background: rgba(22, 47, 18, 0.3);
+  height: 55px;
+  width: 100%;
 }
 
 .site-title a {
@@ -116,6 +121,10 @@ a:active {
     vertical-align: center;
     text-align: center;
     border-style: solid;
+}
+
+@media screen and (max-width: 600px) {
+
 }
 
 

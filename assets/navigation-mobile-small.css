@@ -1,4 +1,4 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
 
 
     .site-title a {
@@ -26,6 +26,7 @@
         border-radius: 5px;
         text-align: right;
         border-style: solid;
+        background-color: rgba(0, 0, 0, 0);
     }
 
     .site-nav label[for=nav-trigger] {
