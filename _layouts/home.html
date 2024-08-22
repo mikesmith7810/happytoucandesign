@@ -1,37 +1,63 @@
 ---
 layout: default
 ---
-<!--<section class="home-description"><p>{{ content }}</p></section>-->
-
 
 <section class="home-main">
     {%- if site.posts.size > 0 -%}
 
     {%- for post in site.posts -%}
+    {%- if post.feature -%}
     <section class="home-featured-post">
-        {%- if post.feature -%}
+
         <img class="feature" src="/assets/{{ post.main_image }}" alt="{{ post.title }}"/>
         <section class="feature-description">
             <p>{{ post.description }}</p>
         </section>
-        {%- endif -%}
+
 
     </section>
+    {%- endif -%}
     {%- endfor -%}
 
     {%- endif -%}
 
-    <div class="home-column">
-        Some of what we do -
-    </div>
+    <section class="home-column">
+        <section class="projects-description">
+            <p>Some description here of
+                <span class="highlighted">balance</span> and <span class="highlighted">beautiful</span> designs and our
+                <span class="highlighted">values</span> which include lots of nice things we can talk about and bits and
+                thigns we do...
+                possibly....</p>
+        </section>
 
-    <div class="home-column">
-        Some of what we do -
-    </div>
+        <section class="project">
+            <section class="project-type">
 
-    <div class="home-column">
-        Some of what we do -
-    </div>
+                <div class="project-icon"><img src="/assets/color-palette-48.png"/></div>
+                <p class="project-type-title">Colours.</p>
+                <p class="project-type-description">
+                    We love colour and aim to find a balance which meets your needs but gives you that individuality.
+                </p>
+                <div class="project-image"><img src="/assets/posts/IMG_1032.jpeg"></div>
+
+            </section>
+            <section class="project-type">
+                <div class="project-icon"><img src="/assets/oak-tree-64.png"/></div>
+                <p class="project-type-title"> Outside.</p>
+                <p class="project-type-description">
+                    We love colour and aim to find a balance which meets your needs but gives you that individuality.
+                </p>
+                <div class="project-image"><img src="/assets/posts/IMG_1036.jpeg"></div>
+
+            </section>
+
+
+        </section>
+
+
+    </section>
+
+
 
 
 </section>

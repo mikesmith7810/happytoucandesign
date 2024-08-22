@@ -12,10 +12,12 @@
 
 .site-header {
   min-height: 55.95px;
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
   z-index: 1;
   border: 0;
-  padding-bottom: 10px;
   font-family: "Urbanist", system-ui;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -77,9 +79,52 @@
 
 .home-column {
   position: relative;
-  border-style: solid;
-  font-size: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 30px;
   text-align: center;
+  background-color: rgba(233, 248, 227, 0.99);
+}
+
+.projects-description {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.project {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 500px;
+}
+
+.project-type {
+  position: relative;
+
+}
+
+.project-icon {
+
+  height: 60px;
+}
+
+.project-image {
+  margin: 20px;
+}
+
+.project-type-title{
+  font-size: 30px;
+}
+
+.project-type-description{
+  font-size: 20px;
+  margin-left : 50px;
+  margin-right: 50px;
 }
 
 .posts-header {
@@ -87,6 +132,7 @@
 }
 
 .home-featured-post {
+  position: relative;
   text-align: center;
 }
 
@@ -96,14 +142,13 @@
 }
 
 .feature-description {
-  position: relative;
-  float: left;
-  bottom : 200px;
+  position: absolute;
+  bottom : 30px;
   left: 30px;
   width: 50%;
   text-align: left;
   color: ghostwhite;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 a, p, h1, h2, h3, h4, h5, h6 {
@@ -133,15 +178,11 @@ a:active {
   text-decoration: none;
 }
 
-.svg-icon {
-
-    display: inline-block;
-    fill: ghostwhite;
-    padding-right: 0px;
-    vertical-align: center;
-    text-align: center;
-    border-style: solid;
+.highlighted {
+  color: #009926;
 }
+
+
 
 
 
