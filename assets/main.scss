@@ -69,16 +69,21 @@
   margin-right: 20%;
 }
 
-.home-posts {
-  text-align: center;
+.home-main {
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .home-column {
+  position: relative;
   border-style: solid;
   font-size: 40px;
+  text-align: center;
+}
+
+.posts-header {
+  border-style: solid;
 }
 
 .home-featured-post {
