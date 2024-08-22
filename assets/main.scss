@@ -72,15 +72,16 @@
 }
 
 .home-main {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
 }
 
 .home-column {
   position: relative;
-  margin-left: 15%;
-  margin-right: 15%;
+  top: -20px;
+  margin: auto;
+  width: 70%;
   font-size: 30px;
   text-align: center;
   background-color: rgba(233, 248, 227, 0.99);
@@ -100,7 +101,6 @@
   position: relative;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 500px;
 }
 
 .project-type {
@@ -114,7 +114,7 @@
 }
 
 .project-image {
-  margin: 20px;
+  margin: 30px;
 }
 
 .project-type-title{
@@ -152,7 +152,7 @@
 }
 
 a, p, h1, h2, h3, h4, h5, h6 {
-  font-family: "Urbanist", system-ui;
+  font-family: "Futura", system-ui;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
