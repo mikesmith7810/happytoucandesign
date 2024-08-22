@@ -10,7 +10,7 @@
 
     .site-title a {
         color: ghostwhite;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .home-description {
@@ -76,6 +76,7 @@
         width: 100px;
         padding: 5px 0;
         margin-left: 30px;
+        font-size: 10px;
     }
 
     .site-nav .page-link:not(:last-child) {
@@ -103,11 +104,13 @@
         width: 50%;
         text-align: left;
         color: ghostwhite;
-        font-size: 14px;
+        font-size: 9px;
     }
 
     .projects-description {
         font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 
     .project {
@@ -120,5 +123,9 @@
         font-size: 12px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .project-type-title {
+        font-size: 20px;
     }
 }
