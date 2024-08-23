@@ -22,7 +22,7 @@
 
     .site-nav {
         position: absolute;
-        float: right;
+        /*float: right;*/
         top: 35px;
         right: 5px;
         width: 140px;
@@ -64,19 +64,20 @@
     }
 
     .site-nav input:checked ~ .trigger {
-        position: absolute;
+        position: relative;
         float: right;
         display: block;
-        top: 70px;
+        top: 50px;
+        right: 10px;
         padding-bottom: 5px;
     }
 
     .site-nav .page-link {
         display: block;
-        width: 100px;
+        width: 200px;
         padding: 5px 0;
-        margin-left: 30px;
-        font-size: 10px;
+        margin-left: 0px;
+        font-size: 15px;
     }
 
     .site-nav .page-link:not(:last-child) {
@@ -97,14 +98,18 @@
         color: ghostwhite;
     }
 
+    .home-featured-post {
+        height: 600px;
+    }
+
     .feature-description {
         position: absolute;
-        bottom: 30px;
+        bottom: 70px;
         left: 30px;
-        width: 50%;
+        width: 80%;
         text-align: left;
         color: ghostwhite;
-        font-size: 9px;
+        font-size: 35px;
     }
 
     .projects-description {
@@ -114,9 +119,15 @@
     }
 
     .project {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-type {
         position: relative;
-        display: grid;
-        grid-template-columns: 100%;
     }
 
     .project-type-description {

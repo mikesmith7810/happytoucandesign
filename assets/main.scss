@@ -6,14 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Indie+Flower&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 .body-width {
+  display: flex;
+  flex-direction: row;
   max-width: 100%;
-  margin: 0;
 }
 
 .site-header {
-  min-height: 55.95px;
+  min-height: 56px;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 1;
@@ -27,7 +28,7 @@
 }
 
 .top-bar {
-  background: rgba(24, 51, 18, 0.8);
+  background: rgb(74, 74, 197);
   height: 30px;
   width: 100%;
 }
@@ -51,7 +52,7 @@
 }
 
 .main-bar {
-  background: rgba(22, 47, 18, 0.3);
+  background: rgb(217, 37, 140);
   height: 65px;
   width: 100%;
 }
@@ -66,25 +67,25 @@
 
 .home-description {
   text-align: center;
-  font-size: 25px;
+  font-size: 2px;
   margin-left: 20%;
   margin-right: 20%;
 }
 
 .home-main {
   position: relative;
-  top: 0;
-  left: 0;
+  top: 95px;
 }
 
 .home-column {
   position: relative;
-  top: -20px;
+  top: 0px;
   margin: auto;
-  width: 70%;
+  width: 95%;
   font-size: 30px;
   text-align: center;
-  background-color: rgba(233, 248, 227, 0.99);
+  background-color: rgba(233, 248, 227, 1);
+  border-radius: 10px;
 }
 
 .projects-description {
@@ -105,7 +106,6 @@
 
 .project-type {
   position: relative;
-
 }
 
 .project-icon {
@@ -137,7 +137,7 @@
 }
 
 .feature {
-  width: 100%;
+  object-fit: cover;
   height: 100%;
 }
 
