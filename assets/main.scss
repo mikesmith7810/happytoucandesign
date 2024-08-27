@@ -109,7 +109,7 @@
   line-height: 50px;
   font-size: 30px;
   text-align: center;
-  background: rgb(74, 74, 197);
+  background-color: rgb(74, 74, 197);
   color: ghostwhite;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .project-icon {
-
+  margin-top: 14px;
   height: 60px;
 }
 
@@ -153,7 +153,7 @@
 
 .feature {
   object-fit: cover;
-  height: 100%;
+  min-height: 100%;
 }
 
 .feature-description {
