@@ -112,6 +112,12 @@
         font-size: 35px;
     }
 
+    .meet-the-team {
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
     .projects-description {
         font-size: 12px;
         padding-top: 20px;

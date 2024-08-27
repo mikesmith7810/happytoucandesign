@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contactus
 title: CONTACT US
 permalink: /contactus/
 ---

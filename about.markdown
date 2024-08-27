@@ -1,6 +1,6 @@
 ---
-layout: page
-title: MEET THE TEAM
+layout: about
+title: ALL ABOUT US
 permalink: /about/
 ---
 
