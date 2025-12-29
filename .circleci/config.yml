@@ -28,8 +28,8 @@ jobs:
       # This might be required to make sure we have the correct version of Bundler
       # installed.
       - run:
-          name: "Bundle fix"
-          command: gem update bundler
+          name: "Install correct Bundler version"
+          command: gem install bundler:2.5.17
       # Install missing gems and cache them for future builds
       - bundle/bundle-install
       # Cache the repo code for the deploy job.
